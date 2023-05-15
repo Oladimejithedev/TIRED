@@ -1,0 +1,23 @@
+:root {
+    --background: #59124C
+}
+
+a{
+    text-decoration: none;
+}
+
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  
+  }
+
+html{
+    overflow-x: hidden;
+}

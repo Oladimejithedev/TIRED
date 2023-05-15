@@ -1,0 +1,208 @@
+.home{
+    padding-top: 4rem;
+    background: black;
+    color: whitesmoke;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pepe{
+    width: 23em;
+    height: 23rem;
+}
+
+.home_text{
+    margin: 1.5rem 10rem;
+    
+}
+.home_text h4{
+    color: #FFB459;
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+}
+.home_text h2{
+    font-size: 2.2rem;
+    color: #A9CFFF;
+    padding-bottom: 1rem;
+        
+}
+
+.home_text p{
+    font-size: 1rem;
+}
+
+.faq{
+    color: white;
+    background: black;
+    padding: 3rem 5rem;
+}
+
+.faq h2{
+    font-size: 3rem;
+    color: #A9CFFF;
+    padding-bottom: 1rem;
+}
+
+.faq_data{
+    margin-bottom: 3rem;
+}
+
+.faq_data h3{
+    color: #A9CFFF;
+    font-size: 1.5rem;
+    padding-bottom: 0.7rem;
+    border-bottom: #A9CFFF 3px solid;
+    width: 35rem; 
+}
+
+.faq_data p{
+    padding-top: 1rem;
+    font-size: 1rem;
+    color: whitesmoke;
+}
+
+
+
+
+.telegram svg{
+    color: var(--background);
+    font-size: 3rem;
+    margin-top: 1.2rem;
+    background: whitesmoke;
+    border-radius: 50%;
+}
+
+.pan{
+    height: 17rem;
+    width: 100%;
+}
+
+.pan img {width: inherit;
+    height: inherit;
+}
+
+.contact{
+    background-color: black;
+    padding: 4rem 5%;
+    text-align: center;
+}
+
+.contact h2{
+    font-size: 3rem;
+    color: #A9CFFF;
+    padding-bottom: 1rem;
+}
+
+.tele svg{
+    color: var(--background);
+    font-size: 5rem;
+    margin-top: 1.2rem;
+    background: whitesmoke;
+    border-radius: 50%;
+}
+
+.contact p{
+    color: whitesmoke;
+    margin-top: 2.2rem;
+}
+
+
+.roadmap{
+    padding: 3rem 4%;
+    background: black;
+    color: white;
+}
+.roadmap h2 {
+    text-align: center;
+    font-size: 3rem;
+}
+.roadmap> span {
+    color: #A9CFFF
+}
+
+.road{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 5rem;
+    justify-content: center;
+    color: #A9CFFF;
+    padding-top: 3rem;
+    
+}
+.road_data{
+    min-width: 28rem;
+}
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 1.5rem ;
+    font-size: 1.6rem;
+}
+
+.heading h3{
+    border-bottom: 1px solid whitesmoke;
+    min-width: 16rem;
+}
+
+.heading p{
+    font-size: 1.9rem;
+    font-weight: 800;
+}
+
+li{
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+} li> span{
+    padding-right: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1100px){
+    .roadmap{
+        padding: 3rem 6%;
+    }
+    .road{
+        justify-content: left;
+    }
+    .road_data{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 700px){
+  .home_text{
+    margin: 0;
+  }
+.home{
+    padding: 4rem 8%;
+}
+  }
+
+@media screen and (max-width: 850px){
+    .faq_data h3{
+        width: 100%; 
+    }
+
+    .faq{
+        padding: 2.5rem 5%;
+    }
+    
+    
+  }
